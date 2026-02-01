@@ -3,14 +3,14 @@ import yaml
 from src.datascience.utils import logger
 import json
 import joblib
-from ensure import ensure_annotations
+
 from box import ConfigBox   
 from typing import Any
 from pathlib import Path
 from box.exceptions import BoxValueError
 
 
-@ensure_annotations
+
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """Reads a yaml file and returns a ConfigBox object
 
@@ -31,7 +31,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise e
     
 
-@ensure_annotations
+
 def create_directories(path_to_directories: list, verbose=True):
     """Creates list of directories
 
@@ -45,7 +45,7 @@ def create_directories(path_to_directories: list, verbose=True):
             logger.info(f"created directory at: {path}")
 
 
-@ensure_annotations
+
 def save_json(path: Path, data: dict):
     """Saves a dictionary to a json file
 
@@ -58,7 +58,7 @@ def save_json(path: Path, data: dict):
     logger.info(f"json file saved at: {path}")
 
 
-@ensure_annotations
+
 def load_json(path: Path) -> ConfigBox:
     """Loads a json file and returns a ConfigBox object
 
@@ -75,7 +75,7 @@ def load_json(path: Path) -> ConfigBox:
     return ConfigBox(content)
 
 
-@ensure_annotations
+
 def save_bin(data: Any, path: Path) -> None:
     """Saves data to a binary file using joblib
 
@@ -87,7 +87,6 @@ def save_bin(data: Any, path: Path) -> None:
     logger.info(f"binary file saved at: {path}")
 
 
-@ensure_annotations
 def load_bin(path: Path) -> Any:
     """Loads data from a binary file using joblib
     
