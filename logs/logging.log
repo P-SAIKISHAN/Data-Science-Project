@@ -397,3 +397,228 @@ x==========x]
 x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
 
 x==========x]
+[2026-02-02 23:09:21,249]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:09:21,270]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:09:21,292]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:09:21,295]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:12:36,816]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:12:36,837]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:12:36,842]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:12:36,845]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:15:56,549]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:15:56,553]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:15:56,561]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:15:56,563]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:15:57,405]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:15:57,405]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:15:57,414]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:15:57,416]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:20:58,599]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:20:58,603]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:20:58,608]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:20:58,610]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:23:46,714]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:23:46,714]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:23:46,731]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:23:46,731]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:23:46,731]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-02 23:25:21,347]: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:25:21,351]: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:25:21,357]: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: e:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:25:21,359]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:25:21,361]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-02 23:44:48,591]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 23:44:48,592]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 23:44:57,262]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 23:44:57,264]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:44:57,264]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:44:57,270]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:44:57,271]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:44:57,272]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 23:44:57,272]: File already exists: data_ingestion: File already exists]
+[2026-02-02 23:44:57,299]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 23:44:57,302]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:44:57,304]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:44:57,304]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:44:57,304]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:44:57,304]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 23:44:57,344]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:44:57,345]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-02 23:44:57,361]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:44:57,365]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:44:57,367]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:44:57,368]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:44:57,369]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-02 23:44:57,401]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-02 23:44:57,402]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-02 23:44:57,402]: (400, 12): data_transformation: (400, 12)]
+[2026-02-02 23:44:57,403]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:51:33,623]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 23:51:33,624]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 23:51:35,437]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 23:51:35,440]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:51:35,442]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:51:35,445]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:51:35,446]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:51:35,446]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 23:51:35,447]: File already exists: data_ingestion: File already exists]
+[2026-02-02 23:51:35,451]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 23:51:35,455]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:51:35,456]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:51:35,458]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:51:35,459]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:51:35,459]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 23:51:35,498]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:51:35,498]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-02 23:51:35,508]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:51:35,508]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:51:35,513]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:51:35,513]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:51:35,515]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-02 23:51:35,543]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-02 23:51:35,543]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-02 23:51:35,543]: (400, 12): data_transformation: (400, 12)]
+[2026-02-02 23:51:35,545]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:56:17,521]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 23:56:17,522]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 23:56:19,133]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 23:56:19,136]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:56:19,139]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:56:19,142]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:56:19,142]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:56:19,143]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 23:56:19,143]: File already exists: data_ingestion: File already exists]
+[2026-02-02 23:56:19,147]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 23:56:19,151]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:56:19,152]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:56:19,155]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:56:19,156]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:56:19,156]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 23:56:19,191]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:56:19,192]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-02 23:56:19,198]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:56:19,199]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:56:19,202]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:56:19,203]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:56:19,203]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-02 23:56:19,229]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-02 23:56:19,229]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-02 23:56:19,230]: (400, 12): data_transformation: (400, 12)]
+[2026-02-02 23:56:19,230]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:56:19,230]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-02 23:56:19,231]: name 'ModelTrainerTrainingPipeline' is not defined: main: name 'ModelTrainerTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 47, in <module>
+    data_ingestion = ModelTrainerTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ModelTrainerTrainingPipeline' is not defined. Did you mean: 'ModelTrainingPipeline'?
+[2026-02-02 23:58:58,439]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 23:58:58,439]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 23:58:59,997]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 23:59:00,001]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:59:00,003]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:59:00,005]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:59:00,006]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:59:00,006]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 23:59:00,007]: File already exists: data_ingestion: File already exists]
+[2026-02-02 23:59:00,011]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 23:59:00,015]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:59:00,017]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:59:00,020]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:59:00,021]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:59:00,021]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 23:59:00,050]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:59:00,050]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-02 23:59:00,064]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 23:59:00,067]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 23:59:00,069]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 23:59:00,070]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 23:59:00,070]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-02 23:59:00,089]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-02 23:59:00,089]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-02 23:59:00,089]: (400, 12): data_transformation: (400, 12)]
+[2026-02-02 23:59:00,097]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-02 23:59:00,097]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-02 23:59:00,097]: name 'ModelTrainerTrainingPipeline' is not defined: main: name 'ModelTrainerTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 47, in <module>
+    data_ingestion = ModelTrainerTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ModelTrainerTrainingPipeline' is not defined. Did you mean: 'ModelTrainingPipeline'?
+[2026-02-03 00:00:15,851]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 00:00:15,851]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 00:00:17,403]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 00:00:17,412]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 00:00:17,412]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 00:00:17,417]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 00:00:17,417]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 00:00:17,421]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 00:00:17,423]: File already exists: data_ingestion: File already exists]
+[2026-02-03 00:00:17,427]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 00:00:17,427]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 00:00:17,433]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 00:00:17,438]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 00:00:17,439]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 00:00:17,440]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 00:00:17,482]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 00:00:17,482]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 00:00:17,488]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 00:00:17,490]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 00:00:17,493]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 00:00:17,493]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 00:00:17,493]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 00:00:17,523]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 00:00:17,523]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 00:00:17,523]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 00:00:17,523]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 00:00:17,525]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 00:00:17,528]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 00:00:17,530]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 00:00:17,530]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 00:00:17,530]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 00:00:17,530]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 00:00:17,623]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
