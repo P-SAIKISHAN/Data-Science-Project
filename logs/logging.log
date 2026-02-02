@@ -97,3 +97,173 @@ AttributeError: 'NoneType' object has no attribute 'local_data_file'
 [2026-02-02 04:39:35,368]: created directory at: artifacts: common: created directory at: artifacts]
 [2026-02-02 04:39:35,368]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
 [2026-02-02 04:39:35,368]: File already exists: data_ingestion: File already exists]
+[2026-02-02 04:50:14,569]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 04:50:14,571]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 04:50:14,574]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 04:50:14,575]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 04:54:02,890]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 04:54:02,893]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 04:54:02,895]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 04:54:02,897]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 04:54:11,124]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 04:54:11,127]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 04:54:11,130]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 04:54:11,131]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 04:57:39,868]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 04:57:39,870]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 04:57:39,899]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 04:57:39,904]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 04:57:39,906]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:04:00,315]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:04:00,318]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:04:00,339]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:04:00,342]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:04:00,343]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:05:40,377]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:05:40,380]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:05:40,385]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:05:40,388]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:05:40,391]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:07:53,230]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:07:53,233]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:07:53,239]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:07:53,242]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:07:53,244]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:08:49,526]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:08:49,527]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:08:49,527]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:08:49,527]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:08:49,539]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:10:11,254]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:10:11,254]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:10:11,262]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:10:11,265]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:10:11,267]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:11:27,559]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:11:27,562]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:11:27,567]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:11:27,569]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:11:27,571]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:17:23,862]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 05:17:23,862]: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml': main: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "E:\MLOPS\Data-Science-Project\src\datascience\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\src\datascience\config\configuration.py", line 9, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\src\datascience\utils\common.py", line 31, in read_yaml
+    raise e
+  File "E:\MLOPS\Data-Science-Project\src\datascience\utils\common.py", line 24, in read_yaml
+    with open(path_to_yaml, "r") as yaml_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml'
+[2026-02-02 05:21:00,078]: yaml file: config\config.yaml loaded successfully: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-02 05:21:00,082]: yaml file: config\params.yaml loaded successfully: common: yaml file: config\params.yaml loaded successfully]
+[2026-02-02 05:21:00,104]: yaml file: config\schema.yaml loaded successfully: common: yaml file: config\schema.yaml loaded successfully]
+[2026-02-02 05:21:00,106]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:21:00,108]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:42:49,860]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 05:42:49,860]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 05:42:51,289]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 05:42:51,289]: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml': main: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "E:\MLOPS\Data-Science-Project\src\datascience\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\src\datascience\config\configuration.py", line 9, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\src\datascience\utils\common.py", line 31, in read_yaml
+    raise e
+  File "E:\MLOPS\Data-Science-Project\src\datascience\utils\common.py", line 24, in read_yaml
+    with open(path_to_yaml, "r") as yaml_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml'
+[2026-02-02 05:43:10,740]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 05:43:10,741]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 05:43:11,195]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 05:43:11,195]: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml': main: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml']
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 10, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "E:\MLOPS\Data-Science-Project\src\datascience\pipeline\data_ingestion_pipeline.py", line 13, in initiate_data_ingestion
+    config=ConfigurationManager()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\src\datascience\config\configuration.py", line 9, in __init__
+    self.config = read_yaml(config_file_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\src\datascience\utils\common.py", line 31, in read_yaml
+    raise e
+  File "E:\MLOPS\Data-Science-Project\src\datascience\utils\common.py", line 24, in read_yaml
+    with open(path_to_yaml, "r") as yaml_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\MLOPS\\Data-Science-Project\\src\\config\\config.yaml'
+[2026-02-02 05:44:48,515]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 05:44:48,515]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 05:44:48,961]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 05:44:48,964]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 05:44:48,965]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 05:44:48,968]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 05:44:48,969]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:44:48,969]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 05:44:48,969]: File already exists: data_ingestion: File already exists]
+[2026-02-02 05:44:48,973]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 05:44:48,973]: 'DataValidationPipeline' object has no attribute 'initiate_data_validation': main: 'DataValidationPipeline' object has no attribute 'initiate_data_validation']
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 19, in <module>
+    data_validation.initiate_data_validation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationPipeline' object has no attribute 'initiate_data_validation'
+[2026-02-02 05:47:37,921]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 05:47:37,921]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 05:47:38,336]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 05:47:38,339]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 05:47:38,340]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 05:47:38,343]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 05:47:38,343]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:47:38,344]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 05:47:38,344]: File already exists: data_ingestion: File already exists]
+[2026-02-02 05:47:38,349]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 05:47:38,351]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 05:47:38,353]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 05:47:38,356]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 05:47:38,357]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:47:38,358]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:47:38,358]: 'NoneType' object has no attribute 'unzip_data_dir': main: 'NoneType' object has no attribute 'unzip_data_dir']
+Traceback (most recent call last):
+  File "E:\MLOPS\Data-Science-Project\main.py", line 19, in <module>
+    data_validation.initiate_data_validation()
+  File "E:\MLOPS\Data-Science-Project\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_data_validation
+    data_validation.validate_all_columns()
+  File "E:\MLOPS\Data-Science-Project\src\datascience\components\data_validation.py", line 35, in validate_all_columns
+    raise e
+  File "E:\MLOPS\Data-Science-Project\src\datascience\components\data_validation.py", line 16, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unzip_data_dir'
+[2026-02-02 05:54:58,694]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-02 05:54:58,694]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-02 05:54:59,168]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-02 05:54:59,170]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 05:54:59,172]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 05:54:59,176]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 05:54:59,178]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:54:59,178]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-02 05:54:59,179]: File already exists: data_ingestion: File already exists]
+[2026-02-02 05:54:59,182]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-02 05:54:59,182]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-02 05:54:59,182]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-02 05:54:59,192]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-02 05:54:59,192]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-02 05:54:59,192]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-02 05:54:59,242]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
