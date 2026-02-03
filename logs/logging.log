@@ -763,3 +763,1192 @@ x==========x]
 x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2026-02-03 11:35:43,000]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080]
+[2026-02-03 11:35:43,000]: [33mPress CTRL+C to quit[0m: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-03 11:35:59,119]: Exception on / [GET]: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\app.py", line 11, in homepage
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2026-02-03 11:35:59,227]: 127.0.0.1 - - [03/Feb/2026 11:35:59] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:35:59] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:35:59,279]: 127.0.0.1 - - [03/Feb/2026 11:35:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:35:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-02-03 11:36:02,695]: Exception on / [GET]: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\app.py", line 11, in homepage
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2026-02-03 11:36:02,698]: 127.0.0.1 - - [03/Feb/2026 11:36:02] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:36:02] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:36:13,345]: Exception on / [GET]: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\app.py", line 11, in homepage
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2026-02-03 11:36:13,345]: 127.0.0.1 - - [03/Feb/2026 11:36:13] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:36:13] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:36:46,612]: Exception on / [GET]: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\app.py", line 11, in homepage
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2026-02-03 11:36:46,616]: 192.168.2.108 - - [03/Feb/2026 11:36:46] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 192.168.2.108 - - [03/Feb/2026 11:36:46] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:36:46,656]: 192.168.2.108 - - [03/Feb/2026 11:36:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -: _internal: 192.168.2.108 - - [03/Feb/2026 11:36:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-02-03 11:37:01,728]: Exception on / [GET]: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MLOPS\Data-Science-Project\app.py", line 11, in homepage
+    return render_template("index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Conda\Lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2026-02-03 11:37:01,731]: 127.0.0.1 - - [03/Feb/2026 11:37:01] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:37:01] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:38:32,343]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080]
+[2026-02-03 11:38:32,344]: [33mPress CTRL+C to quit[0m: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-03 11:38:32,365]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:38:33,809]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:38:33,819]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:38:38,837]: 127.0.0.1 - - [03/Feb/2026 11:38:38] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:38:38] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:38:39,012]: 127.0.0.1 - - [03/Feb/2026 11:38:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:38:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -]
+[2026-02-03 11:38:39,033]: 127.0.0.1 - - [03/Feb/2026 11:38:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:38:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -]
+[2026-02-03 11:38:39,115]: 127.0.0.1 - - [03/Feb/2026 11:38:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:38:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -]
+[2026-02-03 11:38:39,125]: 127.0.0.1 - - [03/Feb/2026 11:38:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:38:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2026-02-03 11:39:01,878]: 192.168.2.108 - - [03/Feb/2026 11:39:01] "[35m[1mGET / HTTP/1.1[0m" 500 -: _internal: 192.168.2.108 - - [03/Feb/2026 11:39:01] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2026-02-03 11:39:01,903]: 192.168.2.108 - - [03/Feb/2026 11:39:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -: _internal: 192.168.2.108 - - [03/Feb/2026 11:39:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -]
+[2026-02-03 11:39:01,904]: 192.168.2.108 - - [03/Feb/2026 11:39:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -: _internal: 192.168.2.108 - - [03/Feb/2026 11:39:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -]
+[2026-02-03 11:39:01,982]: 192.168.2.108 - - [03/Feb/2026 11:39:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -: _internal: 192.168.2.108 - - [03/Feb/2026 11:39:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -]
+[2026-02-03 11:39:26,762]:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\main.py', reloading: _internal:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\main.py', reloading]
+[2026-02-03 11:39:27,161]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:39:27,736]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:39:27,745]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:39:28,769]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:39:28,775]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:39:29,847]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:39:29,847]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:39:32,995]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:39:33,011]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:33,011]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:33,022]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:33,023]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:33,023]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:39:33,024]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:39:33,031]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:39:33,034]:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\artifacts\\data_ingestion\\data.zip', reloading: _internal:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\artifacts\\data_ingestion\\data.zip', reloading]
+[2026-02-03 11:39:33,038]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:33,040]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:33,045]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:33,047]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:33,047]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:39:33,080]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:33,080]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:39:33,091]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:33,096]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:33,099]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:33,100]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:33,101]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:39:33,145]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:39:33,145]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:39:33,145]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:39:33,145]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:33,145]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:39:33,153]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:33,153]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:33,161]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:33,162]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:33,163]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:39:33,228]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:33,228]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:39:33,244]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:33,245]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:33,248]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:33,249]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:33,250]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:39:34,049]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:39:35,306]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:39:35,313]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:35,313]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:35,319]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:35,320]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:35,322]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:39:35,322]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:39:35,327]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:39:35,332]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:35,334]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:35,337]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:35,339]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:35,339]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:39:35,369]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:35,369]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:39:35,380]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:35,382]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:35,385]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:35,387]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:35,388]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:39:35,431]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:39:35,432]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:39:35,432]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:39:35,433]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:35,433]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:39:35,435]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:35,435]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:35,444]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:35,446]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:35,446]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:39:35,516]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:35,517]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:39:35,518]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:35,518]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:35,527]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:35,528]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:35,528]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:39:35,729]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:39:35,736]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:39:36,600]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:39:38,611]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:39:40,112]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:39:40,113]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:39:44,816]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:39:44,821]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:44,823]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:44,828]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:44,829]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:44,830]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:39:44,830]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:39:44,835]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:39:44,840]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:44,842]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:44,845]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:44,845]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:44,848]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:39:44,886]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:44,886]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:39:44,894]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:44,896]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:44,900]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:44,902]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:44,902]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:39:44,936]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:39:44,936]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:39:44,945]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:39:44,946]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:44,947]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:39:44,951]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:44,953]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:44,957]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:44,959]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:44,959]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:39:45,024]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:39:45,025]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:39:45,030]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:39:45,032]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:39:45,035]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:39:45,036]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:39:45,037]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:39:49,615]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:40:28,601]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:40:38,609]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:40:46,584]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:40:47,137]: 127.0.0.1 - - [03/Feb/2026 11:40:47] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:40:47] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:41:50,659]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080]
+[2026-02-03 11:41:50,660]: [33mPress CTRL+C to quit[0m: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-03 11:41:50,675]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:41:52,132]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:41:52,132]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:41:56,532]: 127.0.0.1 - - [03/Feb/2026 11:41:56] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:41:56] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:42:18,171]: 127.0.0.1 - - [03/Feb/2026 11:42:18] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:42:18] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:42:29,358]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:42:29,358]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:42:33,980]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:42:33,986]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:42:33,988]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:42:33,991]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:42:33,992]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:42:33,993]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:42:33,993]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:42:33,998]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:42:34,002]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:42:34,005]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:42:34,007]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:42:34,009]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:42:34,009]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:42:34,047]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:42:34,048]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:42:34,054]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:42:34,056]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:42:34,059]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:42:34,060]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:42:34,061]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:42:34,097]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:42:34,097]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:42:34,097]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:42:34,098]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:42:34,098]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:42:34,104]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:42:34,106]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:42:34,111]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:42:34,112]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:42:34,113]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:42:34,176]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:42:34,176]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:42:34,192]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:42:34,192]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:42:34,197]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:42:34,199]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:42:34,199]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:42:36,996]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:42:58,313]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:42:58,856]: 127.0.0.1 - - [03/Feb/2026 11:42:58] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:42:58] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:43:07,094]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:43:07,094]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:43:11,629]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:43:11,629]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:43:11,629]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:43:11,646]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:43:11,647]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:43:11,648]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:43:11,648]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:43:11,652]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:43:11,657]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:43:11,658]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:43:11,662]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:43:11,663]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:43:11,664]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:43:11,701]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:43:11,702]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:43:11,711]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:43:11,714]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:43:11,719]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:43:11,721]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:43:11,721]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:43:11,755]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:43:11,756]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:43:11,756]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:43:11,757]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:43:11,757]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:43:11,763]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:43:11,765]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:43:11,769]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:43:11,771]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:43:11,771]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:43:11,847]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:43:11,847]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:43:11,852]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:43:11,853]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:43:11,857]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:43:11,858]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:43:11,858]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:43:14,745]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:43:21,946]: 127.0.0.1 - - [03/Feb/2026 11:43:21] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:43:21] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:43:35,646]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:43:36,130]: 127.0.0.1 - - [03/Feb/2026 11:43:36] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:43:36] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:44:02,749]:  * Detected change in 'E:\\Conda\\Lib\\site-packages\\sklearn\\base.py', reloading: _internal:  * Detected change in 'E:\\Conda\\Lib\\site-packages\\sklearn\\base.py', reloading]
+[2026-02-03 11:44:02,749]:  * Detected change in 'E:\\Conda\\Lib\\site-packages\\sklearn\\base.py', reloading: _internal:  * Detected change in 'E:\\Conda\\Lib\\site-packages\\sklearn\\base.py', reloading]
+[2026-02-03 11:44:02,751]: 127.0.0.1 - - [03/Feb/2026 11:44:02] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:44:02] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 11:44:03,649]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:44:03,682]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:44:05,151]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:44:05,157]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:44:05,163]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:44:05,170]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:45:18,978]: 127.0.0.1 - - [03/Feb/2026 11:45:18] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:45:18] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:45:47,790]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:45:47,790]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:45:52,265]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:45:52,270]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:45:52,272]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:45:52,275]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:45:52,277]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:45:52,277]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:45:52,278]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:45:52,282]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:45:52,287]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:45:52,289]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:45:52,292]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:45:52,293]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:45:52,294]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:45:52,331]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:45:52,332]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:45:52,338]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:45:52,339]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:45:52,343]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:45:52,344]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:45:52,344]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:45:52,379]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:45:52,379]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:45:52,379]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:45:52,379]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:45:52,379]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:45:52,385]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:45:52,389]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:45:52,392]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:45:52,393]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:45:52,394]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:45:52,458]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:45:52,459]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:45:52,465]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:45:52,467]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:45:52,470]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:45:52,471]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:45:52,472]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:45:55,696]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:46:17,328]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:46:17,852]: 127.0.0.1 - - [03/Feb/2026 11:46:17] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:46:17] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:46:37,361]: 127.0.0.1 - - [03/Feb/2026 11:46:37] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:46:37] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 11:47:21,506]: 127.0.0.1 - - [03/Feb/2026 11:47:21] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:47:21] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 11:48:02,924]: 127.0.0.1 - - [03/Feb/2026 11:48:02] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:48:02] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:48:26,820]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:48:26,820]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:48:31,541]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:48:31,556]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:48:31,559]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:48:31,562]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:48:31,563]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:48:31,564]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:48:31,564]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:48:31,567]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:48:31,573]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:48:31,575]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:48:31,577]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:48:31,578]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:48:31,580]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:48:31,613]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:48:31,613]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:48:31,619]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:48:31,621]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:48:31,625]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:48:31,625]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:48:31,627]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:48:31,653]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:48:31,653]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:48:31,654]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:48:31,654]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:48:31,655]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:48:31,659]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:48:31,661]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:48:31,663]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:48:31,664]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:48:31,665]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:48:31,725]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:48:31,726]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:48:31,731]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:48:31,732]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:48:31,735]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:48:31,736]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:48:31,736]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:48:34,537]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:48:55,857]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:48:56,371]: 127.0.0.1 - - [03/Feb/2026 11:48:56] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:48:56] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:50:16,913]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:50:16,913]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:50:21,197]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:50:21,197]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:50:21,197]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:50:21,207]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:50:21,208]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:50:21,209]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:50:21,209]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:50:21,213]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:50:21,217]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:50:21,218]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:50:21,221]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:50:21,222]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:50:21,222]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:50:21,253]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:50:21,253]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:50:21,259]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:50:21,261]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:50:21,263]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:50:21,264]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:50:21,264]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:50:21,292]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:50:21,292]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:50:21,292]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:50:21,293]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:50:21,293]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:50:21,298]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:50:21,300]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:50:21,302]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:50:21,303]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:50:21,304]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:50:21,368]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:50:21,369]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:50:21,373]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:50:21,374]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:50:21,377]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:50:21,378]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:50:21,378]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:50:24,009]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:50:45,315]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:50:45,859]: 127.0.0.1 - - [03/Feb/2026 11:50:45] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:50:45] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:51:19,602]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:51:19,602]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:51:24,034]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:51:24,042]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:51:24,042]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:51:24,042]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:51:24,042]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:51:24,049]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:51:24,049]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:51:24,054]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:51:24,058]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:51:24,060]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:51:24,064]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:51:24,064]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:51:24,065]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:51:24,097]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:51:24,098]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:51:24,103]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:51:24,105]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:51:24,108]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:51:24,109]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:51:24,109]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:51:24,150]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:51:24,150]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:51:24,150]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:51:24,150]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:51:24,150]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:51:24,158]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:51:24,158]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:51:24,158]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:51:24,158]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:51:24,166]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:51:24,228]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:51:24,229]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:51:24,234]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:51:24,237]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:51:24,240]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:51:24,240]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:51:24,241]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:51:26,019]: 127.0.0.1 - - [03/Feb/2026 11:51:26] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:51:26] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 11:51:27,074]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:51:48,623]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:51:49,167]: 127.0.0.1 - - [03/Feb/2026 11:51:49] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:51:49] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:52:29,081]: 127.0.0.1 - - [03/Feb/2026 11:52:29] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:52:29] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 11:54:53,915]:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading: _internal:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading]
+[2026-02-03 11:54:53,915]:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading: _internal:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading]
+[2026-02-03 11:54:53,916]:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading: _internal:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading]
+[2026-02-03 11:54:53,917]:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading: _internal:  * Detected change in 'E:\\MLOPS\\Data-Science-Project\\app.py', reloading]
+[2026-02-03 11:54:54,810]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:54:55,169]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:54:56,367]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:54:56,367]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:54:56,715]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:54:56,717]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:55:31,054]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080]
+[2026-02-03 11:55:31,054]: [33mPress CTRL+C to quit[0m: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-03 11:55:31,060]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:55:32,516]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:55:32,516]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:55:40,458]: 127.0.0.1 - - [03/Feb/2026 11:55:40] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:55:40] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:55:57,539]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:55:57,555]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:56:01,952]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:56:01,952]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:01,952]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:01,963]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:01,964]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:01,965]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:56:01,965]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:56:01,970]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:56:01,974]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:01,975]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:01,978]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:01,978]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:01,980]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:56:02,010]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:02,010]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:56:02,016]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:02,017]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:02,019]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:02,020]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:02,021]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:56:02,048]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:56:02,048]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:56:02,048]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:56:02,049]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:02,049]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:56:02,053]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:02,055]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:02,057]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:02,058]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:02,059]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:56:02,120]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:02,120]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:56:02,128]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:02,129]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:02,132]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:02,133]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:02,133]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:56:04,808]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:56:12,974]:  * Detected change in 'E:\\Conda\\Lib\\site-packages\\mlflow\\utils\\_capture_modules.py', reloading: _internal:  * Detected change in 'E:\\Conda\\Lib\\site-packages\\mlflow\\utils\\_capture_modules.py', reloading]
+[2026-02-03 11:56:13,841]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:56:14,107]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:56:15,357]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:56:15,367]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:56:15,616]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:56:15,624]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:56:16,659]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:56:16,659]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:56:20,632]: 127.0.0.1 - - [03/Feb/2026 11:56:20] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:56:20] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:56:21,457]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:56:21,463]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:21,463]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:21,463]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:21,463]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:21,463]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:56:21,463]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:56:21,477]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:56:21,482]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:21,482]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:21,482]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:21,489]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:21,490]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:56:21,524]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:21,524]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:56:21,541]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:21,541]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:21,545]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:21,547]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:21,547]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:56:21,585]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:56:21,585]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:56:21,585]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:56:21,585]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:21,585]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:56:21,592]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:21,595]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:21,595]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:21,595]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:21,595]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:56:21,665]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:21,665]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:56:21,665]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:21,673]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:21,676]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:21,676]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:21,676]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:56:24,586]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:56:27,192]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:30,658]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:56:30,658]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:56:35,242]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:56:35,242]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:35,242]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:35,258]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:35,259]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:35,259]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:56:35,259]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:56:35,259]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:56:35,259]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:35,259]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:35,259]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:35,275]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:35,275]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:56:35,309]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:35,309]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:56:35,309]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:35,309]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:35,325]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:35,325]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:35,325]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:56:35,359]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:56:35,359]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:56:35,359]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:56:35,359]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:35,359]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:56:35,359]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:35,371]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:35,374]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:35,375]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:35,375]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:56:35,437]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:35,437]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:56:35,444]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:35,446]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:35,448]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:35,448]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:35,448]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:56:37,560]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:56:37,560]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:56:38,459]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:56:42,460]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:56:42,460]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:42,460]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:42,460]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:42,476]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:42,476]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:56:42,477]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:56:42,477]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:56:42,477]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:42,477]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:42,477]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:42,492]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:42,493]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:56:42,526]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:42,527]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:56:42,528]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:42,528]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:42,541]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:42,542]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:42,543]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:56:42,575]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:56:42,576]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:56:42,576]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:56:42,577]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:42,578]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:56:42,583]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:42,585]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:42,589]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:42,590]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:42,591]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:56:42,656]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:56:42,656]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:56:42,662]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:56:42,664]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:56:42,668]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:56:42,668]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:56:42,669]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:56:46,274]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:57:10,781]: 127.0.0.1 - - [03/Feb/2026 11:57:10] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:57:10] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 11:57:21,179]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:57:21,828]: 127.0.0.1 - - [03/Feb/2026 11:57:21] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:57:21] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:57:33,201]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:57:33,741]: 127.0.0.1 - - [03/Feb/2026 11:57:33] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:57:33] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:57:44,316]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:57:44,856]: 127.0.0.1 - - [03/Feb/2026 11:57:44] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:57:44] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:58:29,819]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080]
+[2026-02-03 11:58:29,819]: [33mPress CTRL+C to quit[0m: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-03 11:58:29,834]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 11:58:31,251]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 11:58:31,266]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 11:58:34,957]: 127.0.0.1 - - [03/Feb/2026 11:58:34] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:58:34] "GET / HTTP/1.1" 200 -]
+[2026-02-03 11:58:43,519]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 11:58:43,519]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 11:58:47,936]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 11:58:47,946]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:58:47,946]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:58:47,952]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:58:47,952]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:58:47,952]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 11:58:47,952]: File already exists: data_ingestion: File already exists]
+[2026-02-03 11:58:47,952]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 11:58:47,952]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:58:47,952]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:58:47,969]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:58:47,969]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:58:47,969]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 11:58:48,003]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:58:48,003]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 11:58:48,003]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:58:48,003]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:58:48,019]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:58:48,019]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:58:48,019]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 11:58:48,053]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 11:58:48,053]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 11:58:48,053]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 11:58:48,053]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:58:48,053]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 11:58:48,053]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:58:48,068]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:58:48,070]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:58:48,070]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:58:48,070]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 11:58:48,141]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:58:48,142]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 11:58:48,146]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 11:58:48,148]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 11:58:48,151]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 11:58:48,153]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 11:58:48,153]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 11:58:51,103]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 11:59:12,238]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 11:59:12,740]: 127.0.0.1 - - [03/Feb/2026 11:59:12] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:59:12] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 11:59:36,524]: 127.0.0.1 - - [03/Feb/2026 11:59:36] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 11:59:36] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 12:04:12,449]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.108:8080]
+[2026-02-03 12:04:12,450]: [33mPress CTRL+C to quit[0m: _internal: [33mPress CTRL+C to quit[0m]
+[2026-02-03 12:04:12,465]:  * Restarting with watchdog (windowsapi): _internal:  * Restarting with watchdog (windowsapi)]
+[2026-02-03 12:04:13,918]:  * Debugger is active!: _internal:  * Debugger is active!]
+[2026-02-03 12:04:13,919]:  * Debugger PIN: 450-076-726: _internal:  * Debugger PIN: 450-076-726]
+[2026-02-03 12:04:21,131]: 127.0.0.1 - - [03/Feb/2026 12:04:21] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 12:04:21] "GET / HTTP/1.1" 200 -]
+[2026-02-03 12:04:33,330]: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2026-02-03 12:04:33,330]: NumExpr defaulting to 8 threads.: utils: NumExpr defaulting to 8 threads.]
+[2026-02-03 12:04:37,764]: >>>>>> stage Data Ingestion Stage started <<<<<<: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-02-03 12:04:37,782]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 12:04:37,782]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 12:04:37,787]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 12:04:37,788]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 12:04:37,789]: created directory at: artifacts/data_ingestion: common: created directory at: artifacts/data_ingestion]
+[2026-02-03 12:04:37,789]: File already exists: data_ingestion: File already exists]
+[2026-02-03 12:04:37,794]: >>>>>> stage Data Validation Stage started <<<<<<: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-02-03 12:04:37,799]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 12:04:37,800]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 12:04:37,803]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 12:04:37,804]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 12:04:37,805]: created directory at: artifacts/data_validation: common: created directory at: artifacts/data_validation]
+[2026-02-03 12:04:37,845]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 12:04:37,845]: >>>>>> stage Data Transformation Stage started <<<<<<: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-02-03 12:04:37,855]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 12:04:37,856]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 12:04:37,860]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 12:04:37,861]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 12:04:37,861]: created directory at: artifacts/data_transformation: common: created directory at: artifacts/data_transformation]
+[2026-02-03 12:04:37,898]: Splited data into training and test sets: data_transformation: Splited data into training and test sets]
+[2026-02-03 12:04:37,899]: (1199, 12): data_transformation: (1199, 12)]
+[2026-02-03 12:04:37,899]: (400, 12): data_transformation: (400, 12)]
+[2026-02-03 12:04:37,900]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2026-02-03 12:04:37,900]: >>>>>> stage Model Trainer stage started <<<<<<: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2026-02-03 12:04:37,906]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 12:04:37,908]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 12:04:37,912]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 12:04:37,914]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 12:04:37,915]: created directory at: artifacts/model_trainer: common: created directory at: artifacts/model_trainer]
+[2026-02-03 12:04:37,979]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-02-03 12:04:37,980]: >>>>>> stage Model evaluation stage started <<<<<<: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2026-02-03 12:04:37,984]: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\config.yaml loaded successfully]
+[2026-02-03 12:04:37,986]: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\params.yaml loaded successfully]
+[2026-02-03 12:04:37,990]: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully: common: yaml file: E:\MLOPS\Data-Science-Project\config\schema.yaml loaded successfully]
+[2026-02-03 12:04:37,991]: created directory at: artifacts: common: created directory at: artifacts]
+[2026-02-03 12:04:37,992]: created directory at: artifacts/model_evaluation: common: created directory at: artifacts/model_evaluation]
+[2026-02-03 12:04:40,821]: json file saved at: artifacts\model_evaluation\metrics.json: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-03 12:05:01,676]: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-02-03 12:05:02,218]: 127.0.0.1 - - [03/Feb/2026 12:05:02] "GET /train HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 12:05:02] "GET /train HTTP/1.1" 200 -]
+[2026-02-03 12:05:02,266]: 127.0.0.1 - - [03/Feb/2026 12:05:02] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 12:05:02] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 12:05:07,037]: 127.0.0.1 - - [03/Feb/2026 12:05:07] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 12:05:07] "GET / HTTP/1.1" 200 -]
+[2026-02-03 12:08:05,941]: 127.0.0.1 - - [03/Feb/2026 12:08:05] "POST /predict HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 12:08:05] "POST /predict HTTP/1.1" 200 -]
+[2026-02-03 12:08:15,099]: 127.0.0.1 - - [03/Feb/2026 12:08:15] "GET / HTTP/1.1" 200 -: _internal: 127.0.0.1 - - [03/Feb/2026 12:08:15] "GET / HTTP/1.1" 200 -]
