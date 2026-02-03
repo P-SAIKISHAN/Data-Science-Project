@@ -39,7 +39,7 @@ def index():
             obj = PredictionPipeline()
             predict = obj.predict(data)
 
-            return render_template('result.html', prediction=str(predict))  # FIXED: Changed from 'results.html' to 'result.html'
+            return render_template('results.html', prediction=str(predict))  # FIXED: Changed from 'results.html' to ''
         
         except Exception as e:
             import traceback
